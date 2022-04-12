@@ -9,6 +9,7 @@
   <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-v2" />
   <remote name="blobs" fetch="https://github.com/NeutronBlobs" revision="sc-v2" />
   <remote name="blobs-ssh" fetch="ssh://git@github.com/NeutronBlobs" revision="sc-v2" />
+  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-19.1" />
 
   <!-- Remove existing repositories -->
   <remove-project name="platform/external/zlib" />
@@ -95,6 +96,8 @@
   <project name="android_device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" remote="proton" groups="proton" />
   <remove-project name="device/google/bramble" />
   <project name="android_device_google_bramble" path="device/google/bramble" remote="proton" groups="proton" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="lineage" groups="lineage" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
   <project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="proton" groups="proton" />
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
