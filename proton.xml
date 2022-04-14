@@ -157,11 +157,12 @@
   <project name="manifest" path="manifest" remote="wahoo" groups="wahoo" />
   <project name="android_vendor_lawnicons" path="vendor/lawnicons" remote="proton" groups="proton" />
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
-  <project name="android_vendor_google_devices" path="vendor/google_devices" remote="blobs" groups="proton" />
   <project name="android_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="proton" groups="proton" />
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="proton" groups="proton" />
   <project name="kernel_google_wahoo" path="kernel/google/wahoo" remote="wahoo" groups="wahoo" />
   <project name="device_google_wahoo" path="device/google/wahoo" remote="wahoo" groups="wahoo" />
   <project name="device_google_walleye" path="device/google/walleye" remote="wahoo" groups="wahoo" />
   <project name="vendor_google_walleye" path="vendor/google/walleye" remote="wahoo" groups="wahoo" />
+  <project name="device_google_taimen" path="device/google/taimen" remote="wahoo" groups="wahoo" />
+  <project name="vendor_google_taimen" path="vendor/google/taimen" remote="wahoo" groups="wahoo" />
 </manifest>
