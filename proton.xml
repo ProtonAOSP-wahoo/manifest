@@ -11,6 +11,7 @@
   <remote name="blobs-ssh" fetch="ssh://git@github.com/NeutronBlobs" revision="sc-v2" />
   <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-19.1" />
   <remote name="wahoo" fetch="https://github.com/ProtonAOSP-wahoo" revision="sc-v2" />
+  <remote name="pe-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="twelve" />
 
   <!-- Remove existing repositories -->
   <remove-project name="platform/external/zlib" />
@@ -62,7 +63,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="proton" groups="proton" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="proton" groups="proton" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="wahoo" groups="wahoo" />
   <remove-project name="platform/frameworks/native" />
   <project name="android_frameworks_native" path="frameworks/native" remote="proton" groups="proton" />
   <remove-project name="platform/external/jemalloc_new" />
@@ -160,6 +161,10 @@
   <project name="android_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="proton" groups="proton" />
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="proton" groups="proton" />
   <project name="PixelExperience/packages_overlays_ThemeIcons" path="packages/overlays/ThemeIcons" remote="github" groups="github" revision="twelve-plus" />
+  <project name="PixelExperience/packages_apps_FaceUnlockService" path="packages/apps/FaceUnlockService" remote="github" groups="github" revision="twelve" />
+  <project name="PixelExperience/vendor_custom-preference" path="vendor/custom-preference" remote="github" groups="github" revision="twelve" />
+  <project name="PixelExperience/vendor_pixel-framework" path="vendor/pixel-framework" remote="github" groups="github" revision="twelve" />
+  <project name="external_faceunlock" path="external/faceunlock" remote="pe-gitlab" groups="pe-gitlab" />
   <project name="kernel_google_wahoo" path="kernel/google/wahoo" remote="wahoo" groups="wahoo" />
   <project name="device_google_wahoo" path="device/google/wahoo" remote="wahoo" groups="wahoo" />
   <project name="device_google_walleye" path="device/google/walleye" remote="wahoo" groups="wahoo" />
