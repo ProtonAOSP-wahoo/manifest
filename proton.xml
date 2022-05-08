@@ -146,6 +146,7 @@
   <project name="android_external_zip" path="external/zip" remote="proton" groups="proton" />
   <project name="android_external_rsync" path="external/rsync" remote="proton" groups="proton" />
   <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
+  <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-proton" remote="lineage" groups="lineage" />
   <project name="android_tools_extract-utils" path="tools/extract-utils" remote="proton" groups="proton" />
   <project name="EnesSastim/vendor_gms" path="vendor/gms" remote="gitlab" revision="sc-v2" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
