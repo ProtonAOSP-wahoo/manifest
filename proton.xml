@@ -38,6 +38,8 @@
   </project>
   <remove-project name="device/common" />
   <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
+  <remove-project name="device/google/bonito" />
+  <project name="device_google_bonito" path="device/google/bonito" remote="wahoo" groups="wahoo" />
   <remove-project name="platform/art" />
   <project name="android_art" path="art" remote="proton" groups="proton" />
   <remove-project name="platform/system/core" />
@@ -107,6 +109,10 @@
   </project>
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <project name="android_hardware_qcom_sm8150_media" path="hardware/qcom/sm8150/media" remote="proton" groups="proton" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <project name="android_hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="lineage" groups="lineage" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <project name="android_hardware_qcom_sdm845_media" path="hardware/qcom/sdm845/media" remote="lineage" groups="lineage" />
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" remote="proton" groups="proton" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
@@ -176,4 +182,7 @@
   <project name="vendor_google_walleye" path="vendor/google/walleye" remote="wahoo" groups="wahoo" />
   <project name="device_google_taimen" path="device/google/taimen" remote="wahoo" groups="wahoo" />
   <project name="vendor_google_taimen" path="vendor/google/taimen" remote="wahoo" groups="wahoo" />
+  <project name="vendor_google_bonito" path="vendor/google/bonito" remote="wahoo" groups="wahoo" />
+  <project name="vendor_google_sargo" path="vendor/google/sargo" remote="wahoo" groups="wahoo" />
+  <project name="kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="wahoo" groups="wahoo" />
 </manifest>
