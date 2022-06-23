@@ -49,8 +49,6 @@
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
   <remove-project name="platform/external/google-fonts/cutive-mono" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="proton" groups="proton" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="proton" groups="proton" />
   <remove-project name="platform/bionic" />
@@ -60,7 +58,7 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="graphene" groups="graphene" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="proton" groups="proton" />
+  <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="wahoo" groups="wahoo" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="proton" groups="proton" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -134,7 +132,9 @@
   <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="proton" groups="proton" />
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="proton" groups="proton" />
   <project name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="proton" groups="proton" />
+  <project name="packages_apps_ColorStub" path="packages/apps/ColorStub" remote="wahoo" groups="wahoo" />
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="wahoo" groups="wahoo" />
+  <project name="packages_apps_StatixThemePicker" path="packages/apps/StatixThemePicker" remote="wahoo" groups="wahoo" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="wahoo" groups="wahoo" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" groups="lineage" />
   <project name="android_external_htop" path="external/htop" remote="proton" groups="proton" />
