@@ -37,10 +37,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <remove-project name="device/common" />
-  <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
-  <remove-project name="device/google/bonito" />
-  <project name="device_google_bonito" path="device/google/bonito" remote="wahoo" groups="wahoo" />
   <remove-project name="platform/art" />
   <project name="android_art" path="art" remote="proton" groups="proton" />
   <remove-project name="platform/system/core" />
@@ -93,12 +89,6 @@
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="proton" groups="proton" />
   <remove-project name="platform/external/openssh" />
   <project name="android_external_openssh" path="external/openssh" remote="proton" groups="proton" />
-  <remove-project name="device/google/coral-sepolicy" />
-  <remove-project name="device/google/coral" />
-  <remove-project name="device/google/redfin" />
-  <remove-project name="device/google/redbull" />
-  <remove-project name="device/google/redbull-sepolicy" />
-  <remove-project name="device/google/bramble" />
   <remove-project name="platform/hardware/qcom/camera" />
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="lineage" groups="lineage" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
@@ -122,12 +112,6 @@
   <project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" remote="proton" groups="proton" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
   <project name="android_hardware_qcom_sm7250_media" path="hardware/qcom/sm7250/media" remote="proton" groups="proton" />
-  <remove-project name="device/google/gs101" />
-  <project name="android_device_google_gs101" path="device/google/gs101" remote="proton" groups="proton" />
-  <remove-project name="device/google/gs101-sepolicy" />
-  <project name="android_device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" remote="proton" groups="proton" />
-  <remove-project name="device/google/raviole" />
-  <project name="android_device_google_raviole" path="device/google/raviole" remote="proton" groups="proton" />
   <remove-project name="platform/external/armnn" />
   <project name="android_external_armnn" path="external/armnn" remote="proton" groups="proton" />
   <remove-project name="platform/external/android-nn-driver" />
@@ -143,6 +127,7 @@
 
   <!-- Add new repositories -->
   <project name="vendor_proton" path="vendor/proton" remote="wahoo" groups="wahoo" />
+  <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
   <project name="device_proton_sepolicy" path="device/proton/sepolicy" remote="wahoo" groups="wahoo" />
   <project name="android_packages_apps_ProtonWallpaperStub" path="packages/apps/ProtonWallpaperStub" remote="proton" groups="proton" />
   <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" groups="proton" />
@@ -188,6 +173,7 @@
   <project name="vendor_google_walleye" path="vendor/google/walleye" remote="wahoo" groups="wahoo" />
   <project name="device_google_taimen" path="device/google/taimen" remote="wahoo" groups="wahoo" />
   <project name="vendor_google_taimen" path="vendor/google/taimen" remote="wahoo" groups="wahoo" />
+  <project name="device_google_bonito" path="device/google/bonito" remote="wahoo" groups="wahoo" />
   <project name="vendor_google_bonito" path="vendor/google/bonito" remote="wahoo" groups="wahoo" />
   <project name="vendor_google_sargo" path="vendor/google/sargo" remote="wahoo" groups="wahoo" />
   <project name="kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="wahoo" groups="wahoo" />
