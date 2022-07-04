@@ -5,12 +5,12 @@
   <remote name="github-ssh" fetch="ssh://git@github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
   <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" />
-  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc-v2" />
-  <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-v2" />
-  <remote name="blobs" fetch="https://github.com/NeutronBlobs" revision="sc-v2" />
-  <remote name="blobs-ssh" fetch="ssh://git@github.com/NeutronBlobs" revision="sc-v2" />
+  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="sc-qpr3" />
+  <remote name="proton-ssh" fetch="ssh://git@github.com/ProtonAOSP" revision="sc-qpr3" />
+  <remote name="blobs" fetch="https://github.com/NeutronBlobs" revision="sc-qpr3" />
+  <remote name="blobs-ssh" fetch="ssh://git@github.com/NeutronBlobs" revision="sc-qpr3" />
   <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-19.1" />
-  <remote name="wahoo" fetch="https://github.com/ProtonAOSP-wahoo" revision="sc-v2" />
+  <remote name="wahoo" fetch="https://github.com/ProtonAOSP-wahoo" revision="sc-qpr3" />
   <remote name="pe-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="twelve" />
   <remote name="graphene" fetch="https://github.com/GrapheneOS" revision="12.1" />
 
@@ -136,6 +136,8 @@
   <project name="system_update_engine" path="system/update_engine" remote="wahoo" groups="wahoo" />
   <remove-project name="platform/system/vold" />
   <project name="android_system_vold" path="system/vold" remote="proton" groups="proton" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project name="android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="proton" groups="proton" />
 
   <!-- Add new repositories -->
   <project name="vendor_proton" path="vendor/proton" remote="wahoo" groups="wahoo" />
