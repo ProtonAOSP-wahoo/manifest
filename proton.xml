@@ -141,6 +141,7 @@
 
   <!-- Add new repositories -->
   <project name="vendor_proton" path="vendor/proton" remote="wahoo" groups="wahoo" />
+  <project name="vendor_support" path="vendor/support" remote="wahoo" groups="wahoo" />
   <project name="device_proton_sepolicy" path="device/proton/sepolicy" remote="wahoo" groups="wahoo" />
   <project name="android_packages_apps_ProtonWallpaperStub" path="packages/apps/ProtonWallpaperStub" remote="proton" groups="proton" />
   <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" groups="proton" />
