@@ -99,6 +99,12 @@
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="lineage" groups="lineage" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <project name="android_hardware_qcom_data_ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" remote="lineage" groups="lineage" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="lineage" groups="lineage" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="lineage" groups="lineage" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="lineage" groups="lineage" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="lineage" groups="lineage" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
